@@ -17,7 +17,7 @@ def clean_data():
 
     # Manejo de datos faltantes (NaN)
     
-    # df.dropna(inplace=True)
+    df.dropna(inplace=True)
     
     # df.fillna(0, inplace=True)
 
@@ -31,4 +31,3 @@ def clean_data():
     
 
     return df
-
